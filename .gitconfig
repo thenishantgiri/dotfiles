@@ -1,0 +1,24 @@
+[user]
+	name = thenishantgiri
+	email = nishantkrgiri@gmail.com
+	signingkey = 1F058923B0E88F94
+[commit]
+	gpgsign = true  
+[color]
+	ui = true
+[alias]
+	fulltree = log --oneline --color --graph --decorate --all
+[alias]
+	pom = push origin master
+[init]
+	defaultBranch = master
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
