@@ -18,8 +18,8 @@ export PATH=${PATH}:/usr/local/mysql-8.0.29-macos12-arm64/bin
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
 
-# Load Node@18
-export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
+# Load Node@20
+export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
 
 # ANDROID_HOME
 export ANDROID_HOME=$HOME/Library/Android/sdk
